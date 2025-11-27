@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="My portfolio website" />
+  <title>My Portfolio · Page Title</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+<header class="navbar">
+  <a href="index.html" class="nav-logo">
+    <img src="assets/Soala Logo, animation.gif" alt="Logo">
+  </a>
+
+  <nav class="nav-links">
+    <a href="about.html">About</a>
+    <a href="experience.html">Experience</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</header>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="about.html">About</a>
+  <a href="experience.html">Experience</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- About  -->
+
+<section id="about">
+  <p class="section__text__p1">Get To Know More</p>
+  <h1 class="title">About Me</h1>
+
+  <div class="section-container">
+
+    <div class="section__pic-container">
+      <img src="./assets/soala 2.jpg" alt="Profile picture" class="about-pic"/>
+    </div>
+
+    <div class="about-details-container">
+
+      <div class="about-containers">
+        <div class="details-container">
+          <img src="./assets/experience.png" alt="experience icon" class="icon">
+          <h3 class="text-sb">Experience</h3>
+          <p>6+ years <br/>Digital Strategist/Interactive Interaction Designer</p>
+        </div>
+
+        <div class="details-container">
+          <img src="./assets/education.png" alt="education icon" class="icon">
+          <h3 class="text-sb">Education</h3>
+          <p>B.Sc. Bachelor’s Degree<br/>M.Sc. Master’s Degree (In-View)</p>
+        </div>
+      </div>
+
+      
+      <div class="text-container">
+        <p><h3 class="text-sb">Skills:</h3>▪ Visual Design ▪ Adobe Creative Suite ▪ HTML, CSS (basic) ▪ Website and Creative design▪ Digital Marketing and Social Media Management ▪ SEO Specialist ▪ Collaboration ▪ Communication</p><br>
+        <p>
+          I bring extensive knowledge in the Digital Space as a Digital Marketing Expert,
+          Business Strategy and Planning, Content/Social Media Management, Data Analytics,
+          and creative design skills in Photoshop and UI/UX. I am currently advancing my
+          career by pursuing a Master's Degree in Interactive Media Design to gain more
+          in-depth skills and knowledge to achieve corporate objectives and goals.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+  
+  <img src="./assets/arrow.png" alt="Arrow icon"
+       class="icon arrow" onclick="location.href='./experience.html'"/>
+  
+</section>
+
+  <!-- <footer class="footer-left">
+    <p>Copyright © 2025 Soala Pedro. All Rights Reserved</p> -->
+  
+
+
+  <script src="scripts.js"></script>
+</body>
+</html>

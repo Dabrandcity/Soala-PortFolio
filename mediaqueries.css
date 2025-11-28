@@ -1,15 +1,21 @@
-.hamburger {
-  display: none;
-}
 @media (max-width: 850px) {
+  .nav-links {
+    display: none;
+    position: flex;
+  }
+
   .hamburger {
-    display: flex; /* This should override */
+    display: flex;
   }
 }
 
+.hamburger span {
+  transition: background 0.3s;
+}
 
-
-
+.hamburger span: hover {
+  background: gray; /* Change color for visibility */
+}
 
 @media screen and (max-width: 850px) {
   #desktop-nav {

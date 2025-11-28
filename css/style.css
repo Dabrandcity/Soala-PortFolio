@@ -27,7 +27,7 @@ body {
 
 .navbar {
   width: 100%;
-  padding: 10px 40px;      /* smaller padding so it fits on phones */
+  padding: 10px 100px;      /* smaller padding so it fits on phones */
   display: flex;
   justify-content: space-between; 
   align-items: center;

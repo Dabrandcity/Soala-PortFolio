@@ -1,7 +1,8 @@
+/* Ensure hamburger is always displayed in mobile view */
 @media (max-width: 850px) {
   .nav-links {
     display: none;
-    position: flex;
+    /* position: flex; */
   }
 
   .hamburger {
@@ -9,13 +10,16 @@
   }
 }
 
+/* Additional hover effect for better visibility */
 .hamburger span {
   transition: background 0.3s;
 }
 
-.hamburger span: hover {
+.hamburger span:hover {
   background: gray; /* Change color for visibility */
 }
+
+
 
 @media screen and (max-width: 850px) {
   #desktop-nav {
